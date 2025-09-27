@@ -15,7 +15,6 @@ shader_parameter/blur_strength = 0.45
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(580, 488)
-enabled = true
 
 [node name="BG" type="Node" parent="."]
 
@@ -45,23 +44,15 @@ material = SubResource("ShaderMaterial_rf2cd")
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("3_a814b")
 
 [node name="Control" type="Control" parent="CanvasLayer"]
-layout_mode = 1
+layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("6_a814b")
