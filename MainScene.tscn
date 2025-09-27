@@ -1,14 +1,15 @@
-[gd_scene load_steps=7 format=3 uid="uid://bnob02rrk00e"]
+[gd_scene load_steps=8 format=3 uid="uid://bnob02rrk00e"]
 
 [ext_resource type="Texture2D" uid="uid://b1jb4lk27itnd" path="res://FgfkaZ3XwAMemG3.png" id="1_3mqji"]
 [ext_resource type="Shader" uid="uid://cpkdiqse30i1b" path="res://MainScene.gdshader" id="2_rf2cd"]
 [ext_resource type="Texture2D" uid="uid://bv40f5f42h1kd" path="res://back1.png" id="2_rpqi1"]
 [ext_resource type="Script" uid="uid://dxujtwo436251" path="res://color_rect.gd" id="3_a814b"]
 [ext_resource type="Texture2D" uid="uid://coxrfib5qslb0" path="res://back21.png" id="3_uxrcv"]
+[ext_resource type="Script" uid="uid://u4bsb0i22nbi" path="res://control.gd" id="6_a814b"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_rf2cd"]
 shader = ExtResource("2_rf2cd")
-shader_parameter/blur_strength = 0.0
+shader_parameter/blur_strength = 0.450000021375
 
 [node name="MainScene" type="Node2D"]
 
@@ -40,3 +41,12 @@ offset_top = -274.0
 offset_right = 1591.0
 offset_bottom = 1232.0
 script = ExtResource("3_a814b")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -439.0
+offset_top = -256.0
+offset_right = 1591.0
+offset_bottom = 1213.0
+script = ExtResource("6_a814b")
