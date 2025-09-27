@@ -23,14 +23,22 @@ texture = ExtResource("1_3mqji")
 [node name="Hand" type="Node" parent="."]
 
 [node name="Open" type="Sprite2D" parent="Hand"]
+<<<<<<< HEAD
 visible = false
 position = Vector2(720, 386)
+=======
+position = Vector2(667, 723)
+>>>>>>> 741a568702b58a170108fd79857a32605b86bc2b
 scale = Vector2(10.875, 11.125)
 texture = ExtResource("2_rpqi1")
 
 [node name="Closed" type="Sprite2D" parent="Hand"]
+<<<<<<< HEAD
 visible = false
 position = Vector2(509, 394)
+=======
+position = Vector2(412, 418)
+>>>>>>> 741a568702b58a170108fd79857a32605b86bc2b
 scale = Vector2(12.9375, 15.25)
 texture = ExtResource("3_uxrcv")
 
